@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eeeeee;
+  background-image: url("https://codetheweb.blog/assets/img/posts/css-advanced-background-images/cover.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+canvas {
+  background-color: white;
+  background-image: url("ice.gif");
+  background-repeat: no-repeat;
+
+  image-rendering: pixelated;
+  background-size: cover;
+  border-radius: 4px;
+  box-shadow: 0 1px 8px -3px rgba(0, 0, 0, 0.25)
+}
+
+#app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+}
